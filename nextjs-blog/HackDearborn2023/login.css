@@ -1,10 +1,13 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-    background-color:#4c88b8;
-    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
+
 .login{
         width: 382px;
         overflow: hidden;
@@ -15,15 +18,18 @@ body
         border-radius: 15px ;
 
 }
+
 h2{
     text-align: center;
     color: #000;
     padding: 20px;
 }
+
 label{
-    color: #FFCB05;
+    color: #000;
     font-size: 17px;
 }
+
 #Uname{
     width: 300px;
     height: 30px;
@@ -31,6 +37,7 @@ label{
     border-radius: 3px;
     padding-left: 8px;
 }
+
 #Pass{
     width: 300px;
     height: 30px;
@@ -39,6 +46,7 @@ label{
     padding-left: 8px;
 
 }
+
 #log{
     width: 300px;
     height: 30px;
@@ -49,11 +57,14 @@ label{
 
 
 }
+
 span{
     color: white;
     font-size: 17px;
 }
+
 a{
     float: right;
-    background-color: white;
+    text-decoration: none;
+    
 }
