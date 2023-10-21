@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #4c88b8;
 }
 
 .login{
@@ -17,6 +17,12 @@ body {
         background: #97B8DA;
         border-radius: 15px ;
 
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    padding: 20px;
 }
 
 h2{
@@ -31,7 +37,7 @@ label{
 }
 
 #Uname{
-    width: 300px;
+    width: 370px;
     height: 30px;
     border: none;
     border-radius: 3px;
@@ -39,7 +45,7 @@ label{
 }
 
 #Pass{
-    width: 300px;
+    width: 370px;
     height: 30px;
     border: none;
     border-radius: 3px;
@@ -48,18 +54,16 @@ label{
 }
 
 #log{
-    width: 300px;
+    width: 380px;
     height: 30px;
     border: none;
     border-radius: 17px;
-    padding-left: 7px;
     color: #000;
-
-
+    align-items: center;
 }
 
 span{
-    color: white;
+    color: #000;
     font-size: 17px;
 }
 
